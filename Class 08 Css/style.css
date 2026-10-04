@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HORIZONTAL LAYOUT */
+/* .container{
+    height:600px;
+    width:700px;
+    border:2px solid black;
+    margin:auto;
+    display:flex;
+    gap:10px;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+/* VERTICAL LAYOUT */
+
+/* .container{
+    height:600px;
+    width:700px;
+    border:2px solid black;
+    margin:auto;
+    gap:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+   
+} */
+
+.container .box{
+height :100px;
+width:100px;
+background-color:blue;
+padding:10px;
+/* margin:10px; */
+}
+
+.infoCard{
+        min-height: 20px;
+        max-height: 200px;
+    width: 500px;
+    border: 2px solid black;
+        overflow: auto;
+}
